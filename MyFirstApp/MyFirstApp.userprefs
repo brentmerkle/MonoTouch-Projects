@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyFirstApp/Info.plist">
+    <Files>
+      <File FileName="MyFirstApp/MyFirstAppViewController.cs" Line="34" Column="5" />
+      <File FileName="MyFirstApp/MyFirstAppViewController.designer.cs" Line="20" Column="11" />
+      <File FileName="MyFirstApp/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="MyFirstApp/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

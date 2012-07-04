@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8FDFB000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAD3800000000000000000 /* UIKit.framework */; };
+		81844A000000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4122800000000000000000 /* Foundation.framework */; };
+		4A0A99000000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C771800000000000000000 /* CoreGraphics.framework */; };
+		EFF230000000000000000000 /* MyFirstiOSAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF088000000000000000000 /* MyFirstiOSAppViewController.xib */; };
+		B8787F000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = D43557800000000000000000 /* AppDelegate.h */; };
+		2DC844800000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49851D000000000000000000 /* AppDelegate.m */; };
+		F64E93800000000000000000 /* MyFirstiOSAppViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 120B6C000000000000000000 /* MyFirstiOSAppViewController.h */; };
+		A3180A000000000000000000 /* MyFirstiOSAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED4E2800000000000000000 /* MyFirstiOSAppViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B27E6800000000000000000 /* MyFirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MyFirstiOSApp.app"; path = "MyFirstiOSApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAD3800000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		9D4122800000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		65C771800000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		BAF088000000000000000000 /* MyFirstiOSAppViewController.xib */ = {isa = PBXFileReference; name = "MyFirstiOSAppViewController.xib"; path = "MyFirstiOSAppViewController.xib"; sourceTree = "<group>"; };
+		D43557800000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		49851D000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		120B6C000000000000000000 /* MyFirstiOSAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyFirstiOSAppViewController.h"; path = "MyFirstiOSAppViewController.h"; sourceTree = "<group>"; };
+		BED4E2800000000000000000 /* MyFirstiOSAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyFirstiOSAppViewController.m"; path = "MyFirstiOSAppViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2194F9800000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FDFB000000000000000000 /* UIKit.framework in Frameworks */,
+				81844A000000000000000000 /* Foundation.framework in Frameworks */,
+				4A0A99000000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C2CF400000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				F355BC400000000000000000 /* MyFirstiOSApp */,
+				ECF958C00000000000000000 /* Frameworks */,
+				468C45C00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468C45C00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B27E6800000000000000000 /* MyFirstiOSApp.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		ECF958C00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAD3800000000000000000 /* UIKit.framework */,
+				9D4122800000000000000000 /* Foundation.framework */,
+				65C771800000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		F355BC400000000000000000 /* MyFirstiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				D43557800000000000000000 /* AppDelegate.h */,
+				120B6C000000000000000000 /* MyFirstiOSAppViewController.h */,
+				BAF088000000000000000000 /* MyFirstiOSAppViewController.xib */,
+				32F19F400000000000000000 /* Supporting Files */,
+			);
+			name = "MyFirstiOSApp";
+			sourceTree = "<group>";
+		};
+		32F19F400000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49851D000000000000000000 /* AppDelegate.m */,
+				BED4E2800000000000000000 /* MyFirstiOSAppViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56733E800000000000000000 /* MyFirstiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE051800000000000000000 /* Build configuration list for PBXNativeTarget "MyFirstiOSApp" */;
+			buildPhases = (
+				CE5E70000000000000000000 /* Sources */,
+				2194F9800000000000000000 /* Frameworks */,
+				EA1B48800000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFirstiOSApp";
+			productName = "MyFirstiOSApp";
+			productReference = 7B27E6800000000000000000 /* MyFirstiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E18C2B000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { };
+			buildConfigurationList = A9A9C8000000000000000000 /* Build configuration list for PBXProject "MyFirstiOSApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99C2CF400000000000000000;
+			productRefGroup = 468C45C00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56733E800000000000000000 /* MyFirstiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1B48800000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF230000000000000000000 /* MyFirstiOSAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5E70000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8787F000000000000000000 /* AppDelegate.h in Sources */,
+				2DC844800000000000000000 /* AppDelegate.m in Sources */,
+				F64E93800000000000000000 /* MyFirstiOSAppViewController.h in Sources */,
+				A3180A000000000000000000 /* MyFirstiOSAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F15D000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		43AE35800000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MyFirstiOSApp";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A9C8000000000000000000 /* Build configuration list for PBXProject "MyFirstiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F15D000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		FCE051800000000000000000 /* Build configuration list for PBXNativeTarget "MyFirstiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE35800000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E18C2B000000000000000000 /* Project object */;
+}
